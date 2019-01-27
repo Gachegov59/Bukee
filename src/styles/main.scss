@@ -30,7 +30,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: $light-color;
-    padding-bottom: 50px;
+    padding-bottom: 155px;
 }
 
 .header {
@@ -122,6 +122,12 @@ body {
         padding: 14px 0;
         letter-spacing: 0.7px;
         margin-bottom: 19px;
+    }
+    &__small {
+        font-family: 'Open Sans', serif;
+        font-style: italic;
+        font-size: 12px;
+        letter-spacing: 0.7px;
     }
 }
 .block-book{

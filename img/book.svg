@@ -1,50 +1,25 @@
-<svg id="book" xmlns="http://www.w3.org/2000/svg" width="445" height="639" viewBox="0 0 445 639">
-  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""/>
-   </rdf:RDF>
-</x:xmpmeta>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                           
-<?xpacket end="w"?></metadata>
-<defs>
-    <style>
-      .cls-1 {
-        fill: #44444f;
-      }
-
-      .cls-2 {
-        fill: #65e496;
-        fill-rule: evenodd;
-      }
-
-      .cls-3 {
-        fill: #3d3d47;
-      }
-    </style>
-  </defs>
-  <rect id="book-2" data-name="book" class="cls-1" width="444.969" height="639" rx="5" ry="5"/>
-  <path id="Rectangle_10_copy" data-name="Rectangle 10 copy" class="cls-2" d="M376.051,536.046L541.47,370.655a30.747,30.747,0,0,1,43.486,43.479L419.537,579.526A30.747,30.747,0,1,1,376.051,536.046Z"/>
-  <path id="Rectangle_10_copy_2" data-name="Rectangle 10 copy 2" class="cls-2" d="M295.258,490.231L460.677,324.84a30.747,30.747,0,0,1,43.486,43.479L338.745,533.71A30.747,30.747,0,1,1,295.258,490.231Z"/>
-  <rect class="cls-3" width="62.719" height="639"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="book" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 445 639" style="enable-background:new 0 0 445 639;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#44444F;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#65E496;}
+	.st2{fill:#3D3D47;}
+</style>
+<g>
+	<g>
+		<path id="book-2" class="st0" d="M5,0h435c2.8,0,5,2.2,5,5v629c0,2.8-2.2,5-5,5H5c-2.8,0-5-2.2-5-5V5C0,2.2,2.2,0,5,0z"/>
+		<path id="Rectangle_10_copy_10_" class="st1" d="M445,467.1L445,467.1"/>
+		<path id="Rectangle_10_copy_11_" class="st1" d="M445,467.1L445,467.1"/>
+		<path id="Rectangle_10_copy_6_" class="st1" d="M445.1,554l-25.5,25.5c-12,12-31.5,12-43.5,0c-12-12-12-31.5,0-43.5l0,0l69-68.9"
+			/>
+		<path id="Rectangle_10_copy_5_" class="st1" d="M445.6,553.5l-0.5,0.5"/>
+		<path id="Rectangle_10_copy_3_" class="st1" d="M446.7,552.4l-1.1,1.1"/>
+		<path id="Rectangle_10_copy_2_12_" class="st1" d="M445.1,340.5l0.8-0.8"/>
+		<path id="Rectangle_10_copy_2_10_" class="st1" d="M445,427.5L338.7,533.7c-12,12-31.5,12-43.5,0c-12-12-12-31.5,0-43.5
+			l149.8-149.8"/>
+	</g>
+	<rect class="st2" width="62.7" height="639"/>
+</g>
 </svg>

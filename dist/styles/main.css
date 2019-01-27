@@ -356,7 +356,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  padding-bottom: 50px; }
+  padding-bottom: 155px; }
 
 .header {
   display: flex;
@@ -427,6 +427,11 @@ body {
     padding: 14px 0;
     letter-spacing: 0.7px;
     margin-bottom: 19px; }
+  .block-text__small {
+    font-family: 'Open Sans', serif;
+    font-style: italic;
+    font-size: 12px;
+    letter-spacing: 0.7px; }
 
 .block-book {
   display: flex;
