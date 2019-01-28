@@ -33,6 +33,10 @@ body {
     padding-bottom: 155px;
 }
 
+.page {
+    padding-top: 161px
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -83,10 +87,13 @@ body {
     &__name {
         font-family: 'Open Sans', serif;
         font-size: 18px;
-        letter-spacing: 0.7px;
+        letter-spacing: 0.85px;
         margin-bottom: 30px;
     }
-
+    &__name-top{
+        margin-top: 16px;
+        margin-left: 0;
+    }
     &__title {
         font-size: 48px;
         font-weight: 700;
@@ -107,7 +114,7 @@ body {
         font-size: 15px;
         line-height: 24px;
         margin-bottom: 24px;
-        letter-spacing: 0.7px;
+        letter-spacing: 0.75px;
     }
     &__btn {
         display: block;
@@ -126,8 +133,9 @@ body {
     &__small {
         font-family: 'Open Sans', serif;
         font-style: italic;
+        font-weight: 400;
         font-size: 12px;
-        letter-spacing: 0.8px;
+        letter-spacing: 0.2px;
     }
 }
 .block-book{
@@ -140,5 +148,21 @@ body {
         background-image: url(../img/book.svg);
         background-repeat: no-repeat;
         flex-basis: 500px;
+    }
+}
+.block-author{
+    display: flex;
+    justify-content: space-between;
+}
+.block-ava {
+    position: relative;
+    &__svg{
+        position: absolute;
+        right: 0;
+        z-index: -1;
+    }
+    &__img {
+        margin-top: 45px;
+        margin-right: 46px;
     }
 }

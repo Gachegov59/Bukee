@@ -358,6 +358,9 @@ body {
   color: #fff;
   padding-bottom: 155px; }
 
+.page {
+  padding-top: 161px; }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -395,8 +398,11 @@ body {
   .block-text__name {
     font-family: 'Open Sans', serif;
     font-size: 18px;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.85px;
     margin-bottom: 30px; }
+  .block-text__name-top {
+    margin-top: 16px;
+    margin-left: 0; }
   .block-text__title {
     font-size: 48px;
     font-weight: 700;
@@ -413,7 +419,7 @@ body {
     font-size: 15px;
     line-height: 24px;
     margin-bottom: 24px;
-    letter-spacing: 0.7px; }
+    letter-spacing: 0.75px; }
   .block-text__btn {
     display: block;
     background-color: #65e496;
@@ -430,8 +436,9 @@ body {
   .block-text__small {
     font-family: 'Open Sans', serif;
     font-style: italic;
+    font-weight: 400;
     font-size: 12px;
-    letter-spacing: 0.8px; }
+    letter-spacing: 0.2px; }
 
 .block-book {
   display: flex;
@@ -443,5 +450,19 @@ body {
     background-image: url(../img/book.svg);
     background-repeat: no-repeat;
     flex-basis: 500px; }
+
+.block-author {
+  display: flex;
+  justify-content: space-between; }
+
+.block-ava {
+  position: relative; }
+  .block-ava__svg {
+    position: absolute;
+    right: 0;
+    z-index: -1; }
+  .block-ava__img {
+    margin-top: 45px;
+    margin-right: 46px; }
 
 /*# sourceMappingURL=maps/main.css.map */
