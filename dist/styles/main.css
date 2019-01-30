@@ -465,4 +465,20 @@ body {
     margin-top: 45px;
     margin-right: 46px; }
 
+.block-counter {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 182px; }
+  .block-counter p {
+    font-family: 'Open Sans', serif;
+    text-align: center;
+    font-size: 18px; }
+    .block-counter p span {
+      font-family: 'Roboto slab', serif;
+      display: block;
+      font-weight: 100;
+      font-size: 80px;
+      color: #65e496;
+      margin-bottom: 12px; }
+
 /*# sourceMappingURL=maps/main.css.map */

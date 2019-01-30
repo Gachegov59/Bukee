@@ -166,3 +166,21 @@ body {
         margin-right: 46px;
     }
 }
+.block-counter {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 182px;
+    p {
+        font-family: 'Open Sans', serif;
+        text-align: center;
+        font-size: 18px;
+        span {
+            font-family: 'Roboto slab', serif;
+            display: block;
+            font-weight: 100;
+            font-size: 80px;
+            color: $acient-color;
+            margin-bottom: 12px;
+        }
+    }
+}
