@@ -568,7 +568,7 @@ body {
         vertical-align: middle;
         font-size: 18px;
         margin-right: 12px; }
-      .block-about-social__list > a {
-        color: #65e496; }
+        .block-about-social__list > li > a {
+          color: #65e496; }
 
 /*# sourceMappingURL=maps/main.css.map */
