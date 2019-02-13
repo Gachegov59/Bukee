@@ -362,11 +362,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  padding-bottom: 157px; }
+  padding-bottom: 161px; }
 
 .page {
   padding-top: 163px;
-  padding-bottom: 160px; }
+  padding-bottom: 161px; }
   .page_gray {
     background-color: #f5f6fa;
     padding-bottom: 235px; }
@@ -391,8 +391,7 @@ body {
     margin-top: 28px;
     padding: 14px 34px;
     letter-spacing: 0.7px;
-    box-shadow: 0 -2px #adedbb inset;
-    margin-left: 473px; }
+    box-shadow: 0 -2px #adedbb inset; }
 
 .header {
   display: flex;
@@ -401,7 +400,7 @@ body {
   max-width: 1170px;
   margin: 0 auto;
   padding-top: 38px;
-  padding-bottom: 166px; }
+  padding-bottom: 161px; }
   .header__logo {
     background-image: url(../img/Logo.svg);
     display: block;
@@ -416,7 +415,8 @@ body {
       margin-left: 22px;
       padding-bottom: 5px;
       border-bottom: 3px solid transparent;
-      transition: 0.3s; }
+      transition: 0.3s;
+      margin-top: 5px; }
       .header-list__item:hover {
         border-bottom: 3px solid #65e496; }
     .header-list__item.active {
@@ -434,10 +434,16 @@ body {
     font-family: 'Open Sans', serif;
     font-size: 18px;
     letter-spacing: 0.85px;
-    margin-bottom: 28px; }
+    margin-bottom: 42px; }
+    .block-text__name_ava {
+      margin-top: -5px;
+      margin-bottom: 29px; }
   .block-text__name_top {
-    margin-top: 15px;
+    margin-top: 13px;
+    margin-bottom: 33px;
     margin-left: 0; }
+  .block-text_ava {
+    margin-bottom: 10px; }
   .block-text__title {
     font-size: 48px;
     font-weight: 700;
@@ -449,7 +455,7 @@ body {
       font-size: 18px;
       margin-top: 23px;
       letter-spacing: 0.9px; }
-  .block-text_discription {
+  .block-text__discription {
     font-family: 'Open Sans', serif;
     font-size: 15px;
     line-height: 24px;
@@ -460,7 +466,7 @@ body {
     background: linear-gradient(to top left, #65e49c, #65e4af);
     color: #fff;
     text-decoration: none;
-    width: 248px;
+    width: 238px;
     border-radius: 3px;
     text-align: center;
     font-size: 18px;
@@ -470,7 +476,8 @@ body {
     letter-spacing: 0.7px;
     box-shadow: 0 -2px #adedbb inset; }
   .block-text__btn--main {
-    box-shadow: 0 -2px #59ba88 inset; }
+    box-shadow: 0 -2px #59ba88 inset;
+    width: 249px; }
   .block-text__small {
     font-family: 'Open Sans', serif;
     font-style: italic;
@@ -513,8 +520,8 @@ body {
   .block-book-demo {
     display: block;
     position: relative;
-    width: 447px;
-    height: 643px;
+    width: 445px;
+    height: 639px;
     background-image: url(../img/book.svg);
     background-repeat: no-repeat;
     flex-basis: 500px; }
@@ -659,6 +666,11 @@ body {
   margin-top: 88px;
   justify-content: space-around;
   margin-bottom: 95px; }
+  .block-product + .page__btn {
+    display: block;
+    margin: 84px auto 0;
+    padding: 13px 0;
+    max-width: 227px; }
   .block-product-demo {
     position: relative;
     background-image: url(../img/book2.svg);
@@ -707,5 +719,44 @@ body {
       font-weight: 700;
       color: #65e496;
       text-decoration: none; }
+
+.block-blog {
+  display: flex;
+  justify-content: space-between; }
+  .block-blog p {
+    display: inline-block; }
+  .block-blog h4 {
+    font-size: 18px;
+    letter-spacing: 0.9px; }
+  .block-blog-img {
+    width: 369px;
+    height: 224px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 16px; }
+    .block-blog-img img {
+      width: 369px;
+      height: 224px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      object-fit: cover; }
+  .block-blog-info {
+    font-size: 15px;
+    margin-top: 2px;
+    letter-spacing: 0.3px;
+    margin-bottom: 12px; }
+    .block-blog-info a {
+      color: #65e496;
+      text-decoration: none; }
+  .block-blog__desc {
+    font-size: 15px;
+    font-family: 'Open Sans', serif; }
+  .block-blog + .page__btn {
+    display: block;
+    margin: 84px auto 0;
+    padding: 13px 0;
+    max-width: 227px; }
 
 /*# sourceMappingURL=maps/main.css.map */

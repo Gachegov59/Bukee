@@ -40,12 +40,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: $light-color;
-    padding-bottom: 157px;
+    padding-bottom: 161px;
 }
 
 .page {
     padding-top: 163px;
-    padding-bottom: 160px;
+    padding-bottom: 161px;
 
     &_gray {
         background-color: $bg-light-color;
@@ -78,9 +78,10 @@ body {
         padding: 14px 34px;
         letter-spacing: 0.7px;
         box-shadow: 0 -2px #adedbb inset;
-        margin-left: 473px;
+
 
     }
+
 }
 
 .header {
@@ -90,7 +91,7 @@ body {
     max-width: 1170px;
     margin: 0 auto;
     padding-top: 38px;
-    padding-bottom: 166px;
+    padding-bottom: 161px;
 
     &__logo {
         background-image: url(../img/Logo.svg);
@@ -110,6 +111,7 @@ body {
             padding-bottom: 5px;
             border-bottom: 3px solid transparent;
             transition: 0.3s;
+            margin-top: 5px;
 
             &:hover {
                 border-bottom: 3px solid $acient-color;
@@ -130,6 +132,7 @@ body {
 
 .block-text {
     flex-basis: calc(93% - 500px);
+
     &--width {
         flex-basis: calc(93% - 520px);
     }
@@ -138,12 +141,23 @@ body {
         font-family: 'Open Sans', serif;
         font-size: 18px;
         letter-spacing: 0.85px;
-        margin-bottom: 28px;
+        margin-bottom: 42px;
+
+        &_ava {
+            margin-top: -5px;
+            margin-bottom: 29px;
+        }
+
     }
 
     &__name_top {
-        margin-top: 15px;
+        margin-top: 13px;
+        margin-bottom: 33px;
         margin-left: 0;
+    }
+
+    &_ava {
+        margin-bottom: 10px;
     }
 
     &__title {
@@ -161,7 +175,7 @@ body {
         }
     }
 
-    &_discription {
+    &__discription {
         font-family: 'Open Sans', serif;
         font-size: 15px;
         line-height: 24px;
@@ -174,7 +188,7 @@ body {
         background: linear-gradient(to top left, #65e49c, #65e4af);
         color: $light-color;
         text-decoration: none;
-        width: 248px;
+        width: 238px;
         border-radius: 3px;
         text-align: center;
         font-size: 18px;
@@ -184,9 +198,12 @@ body {
         letter-spacing: 0.7px;
         box-shadow: 0 -2px #adedbb inset;
     }
+
     &__btn--main {
         box-shadow: 0 -2px #59ba88 inset;
+        width: 249px;
     }
+
     &__small {
         font-family: 'Open Sans', serif;
         font-style: italic;
@@ -194,39 +211,44 @@ body {
         font-size: 12px;
         letter-spacing: 0.2px;
     }
+
     &-item {
         margin-bottom: 55px;
-       &__date {
-           font-size: 15px;
-           font-family: 'Open Sans', serif;
-           letter-spacing: 0.8px;
-           margin-bottom: 4px;
-       } 
-       &__title {
-        font-size: 18px;
-        letter-spacing: 0.9px;
-        margin-bottom: 16px;
-       }
-       &__desc {
-        font-size: 15px;
-        font-family: 'Open Sans', serif;
-        letter-spacing: 0.75px
-       }
-       &__btn {
-        display: block;
-        background: linear-gradient(to top left, #65e49c, #65e4af);
-        color: $light-color;
-        text-decoration: none;
-        max-width: 138px;
-        border-radius: 3px;
-        text-align: center;
-        font-size: 18px;
-        margin-top: 24px;
-        margin-bottom: 14px;
-        padding: 11px 0 15px 0;
-        letter-spacing: 0.7px;
-        box-shadow: 0 -2px #adedbb inset;
-    }
+
+        &__date {
+            font-size: 15px;
+            font-family: 'Open Sans', serif;
+            letter-spacing: 0.8px;
+            margin-bottom: 4px;
+        }
+
+        &__title {
+            font-size: 18px;
+            letter-spacing: 0.9px;
+            margin-bottom: 16px;
+        }
+
+        &__desc {
+            font-size: 15px;
+            font-family: 'Open Sans', serif;
+            letter-spacing: 0.75px
+        }
+
+        &__btn {
+            display: block;
+            background: linear-gradient(to top left, #65e49c, #65e4af);
+            color: $light-color;
+            text-decoration: none;
+            max-width: 138px;
+            border-radius: 3px;
+            text-align: center;
+            font-size: 18px;
+            margin-top: 24px;
+            margin-bottom: 14px;
+            padding: 11px 0 15px 0;
+            letter-spacing: 0.7px;
+            box-shadow: 0 -2px #adedbb inset;
+        }
     }
 }
 
@@ -237,8 +259,8 @@ body {
     &-demo {
         display: block;
         position: relative;
-        width: 447px;
-        height: 643px;
+        width: 445px;
+        height: 639px;
         background-image: url(../img/book.svg);
         background-repeat: no-repeat;
         flex-basis: 500px;
@@ -288,14 +310,17 @@ body {
         right: 0;
         z-index: -1;
     }
-    &__svg--left{
+
+    &__svg--left {
         right: inherit;
         left: 0;
     }
+
     &__img {
         margin-top: 45px;
         margin-right: 46px;
     }
+
     &__img--left {
         margin-top: 49px;
         margin-left: 51px;
@@ -382,7 +407,7 @@ body {
         &__btn {
             display: block;
             background: linear-gradient(to top left, #65e49c, #65e4af);
-            border:none;
+            border: none;
             color: $light-color;
             text-decoration: none;
             width: 140px;
@@ -433,6 +458,12 @@ body {
     justify-content: space-around;
     margin-bottom: 95px;
 
+    &+.page__btn {
+        display: block;
+        margin: 84px auto 0;
+        padding: 13px 0;
+        max-width: 227px;
+    }
 
     &-demo {
         position: relative;
@@ -496,5 +527,60 @@ body {
             color: $acient-color;
             text-decoration: none;
         }
+    }
+}
+
+
+.block-blog {
+    display: flex;
+    justify-content: space-between;
+    p{
+        display: inline-block;
+    }
+    h4 {
+        font-size: 18px;
+        letter-spacing: 0.9px;
+    }
+
+    &-img {
+        width: 369px;
+        height: 224px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 16px;
+        img {
+            width: 369px;
+            height: 224px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+            
+        }
+    }
+
+    &-info {
+        font-size: 15px;
+        margin-top: 2px;
+        letter-spacing: 0.3px;
+        margin-bottom: 12px;
+        a {
+            color: $acient-color;
+            text-decoration: none;
+        }
+    }
+
+    &__desc {
+        font-size: 15px;
+        font-family: 'Open Sans', serif;
+        
+    }
+
+    &+.page__btn {
+        display: block;
+        margin: 84px auto 0;
+        padding: 13px 0;
+        max-width: 227px;
     }
 }
