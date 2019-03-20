@@ -453,6 +453,12 @@ body {
     display: flex;
     justify-content: flex-end;
     font-family: 'Open Sans', serif; }
+    @media (max-width: 748px) {
+      .header-list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: space-around; } }
     @media (max-width: 420px) {
       .header-list {
         display: flex;
@@ -581,6 +587,9 @@ body {
       padding: 11px 0 15px 0;
       letter-spacing: 0.7px;
       box-shadow: 0 -2px #adedbb inset; }
+      @media (max-width: 850px) {
+        .block-text-item__btn {
+          margin: 24px auto; } }
 
 .block-book {
   display: flex;
@@ -788,6 +797,8 @@ body {
       letter-spacing: 0.7px;
       margin-bottom: 19px;
       box-shadow: 0 -2px #adedbb inset; }
+      .block-about-table__btn:hover {
+        cursor: pointer; }
       .block-about-table__btn:focus {
         outline: none; }
   .block-about-social {
@@ -999,6 +1010,8 @@ body {
     box-shadow: 0 -2px #adedbb inset;
     display: block;
     width: 100%; }
+    .block-letter__btn:hover {
+      cursor: pointer; }
     @media (max-width: 1020px) {
       .block-letter__btn {
         max-width: 500px;
@@ -1014,9 +1027,10 @@ body {
 .block-footer {
   display: flex;
   justify-content: space-between; }
-  @media (max-width: 500px) {
+  @media (max-width: 880px) {
     .block-footer {
-      flex-flow: column wrap; } }
+      flex-flow: column wrap;
+      text-align: center; } }
   .block-footer > div {
     flex-basis: 30%; }
   .block-footer__logo {
@@ -1024,7 +1038,11 @@ body {
     display: block;
     width: 137px;
     height: 28px;
-    margin-bottom: 27px; }
+    margin-bottom: 27px;
+    letter-spacing: 0.4px; }
+    @media (max-width: 880px) {
+      .block-footer__logo {
+        margin: 0 auto 27px; } }
   .block-footer__title {
     font-size: 18px;
     color: #65e496;
@@ -1038,12 +1056,23 @@ body {
     list-style-type: none;
     padding-left: 0;
     letter-spacing: 0.6px; }
+    @media (max-width: 880px) {
+      .block-footer__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; } }
     .block-footer__list > li {
       letter-spacing: 0.4px; }
+      @media (max-width: 880px) {
+        .block-footer__list > li {
+          margin-right: 10px; } }
   .block-footer__social {
     display: flex;
     list-style-type: none;
     padding: 0; }
+    @media (max-width: 880px) {
+      .block-footer__social {
+        justify-content: center; } }
     .block-footer__social > li {
       margin-right: 14px; }
       .block-footer__social > li > a {
