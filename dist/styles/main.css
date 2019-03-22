@@ -1052,7 +1052,7 @@ body {
   padding: 159px 0; }
   @media (max-width: 880px) {
     .footer {
-      padding: 90px 0; } }
+      padding: 90px 0 10px 0px; } }
 
 .block-footer {
   display: flex;
